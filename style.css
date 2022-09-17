@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to top,#6CD0FF, #1C2E4C);
+}
+.wrapper{
+    width: 400px;
+    background-color: white;
+    border-radius: 7px;
+    
+}
+.wrapper h1{
+    display: flex;
+    align-items: center;
+    color: #6CD0FF;
+    border-bottom: 1px solid #1C2E4C;
+    padding: 16px 15px;
+}
+.radio{
+   margin: 12px 12px;
+   border: 2px solid #1C2E4C;
+   padding: 12px 12px;
+   border-radius: 7px;
+}
+.inputPart{ margin: 12px 12px;
+    padding: 12px 12px;
+}
+#cityName{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+    height: 35px;
+    text-decoration: none;
+    border: 1px solid 1C2E4C;
+}
+#button{
+    margin-left: 33%;
+}
