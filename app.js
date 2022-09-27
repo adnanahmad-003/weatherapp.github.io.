@@ -23,7 +23,7 @@ app.post("/",function(req,res){
          const icon =weatherdata.weather[0].icon;
          res.write("feels like" + feel);
         res.write("the temperature in"+query+" is"+ temp);
-        res.write("description" + description);
+        
         
          res.send();
         
